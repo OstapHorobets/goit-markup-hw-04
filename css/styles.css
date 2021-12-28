@@ -471,8 +471,74 @@ address ul {
     fill: var(--white-color); */
   }
 
-  /* .team-social-icon:hover,
+  .team-social-icon:hover,
   .team-social-icon:focus {
-    fill: var(--main-background);
-    color: var(--main-background); 
-  } */
+    fill: currentColor; 
+  }
+
+  /* clients section */
+  .clients-list {
+    display: flex;
+  }
+  .clients-list-item {
+    display: block;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--social-icon);
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+  }
+  .clients-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+
+  .client-icon {
+    width: 106px;
+    height: 60px;
+  }
+
+  /* join footer section */
+  .footer-container {
+    display: flex;
+  }
+  .join-section {
+    margin-left: 70px;
+    width: 206px;
+  }
+
+  .join {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-background);
+  margin-bottom: 20px;
+  }
+
+  .join-social {
+    display: flex;
+  }
+  
+  .join-social-link {
+    color: var(--main-background);
+  }
+
+  .join-social-item {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 12px;
+  }
+  .join-social-item:not(:last-child) {
+    margin-right: 10px;
+     }
+
+  .join-social-icon {
+    width: 20px;
+    height: 20px;
+  }
