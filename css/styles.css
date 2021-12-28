@@ -159,6 +159,12 @@ header {
   color: var(--accent-color);
 }
 
+.contacts-icon {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
+
 .nav {
   display: flex;
   margin-left: 93px;
@@ -174,6 +180,13 @@ header {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("../images/hero.jpg") ;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   }
 
 .hero-title {
@@ -411,10 +424,7 @@ address ul {
 }
 
 /* svg */
-.contacts-icon {
-  width: 16px;
-  height: 12px;
-}
+
 .features-icon {
   width: 70px;
   height: 70px;
@@ -467,8 +477,6 @@ address ul {
   .team-social-item:focus {
     background-color: var(--accent-color);
     fill: var(--main-background);
-    /* background-color: var(--accent-color);
-    fill: var(--white-color); */
   }
 
   .team-social-icon:hover,
@@ -491,7 +499,9 @@ address ul {
   .clients-list-item:not(:last-child) {
     margin-right: 30px;
   }
-
+.clients-list-item:hover, .clients-list-item:focus {
+  border: 1px solid var(--accent-color);
+}
 
   .client-icon {
     width: 106px;
@@ -530,13 +540,17 @@ address ul {
   .join-social-item {
     width: 44px;
     height: 44px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     padding: 12px;
   }
   .join-social-item:not(:last-child) {
     margin-right: 10px;
      }
+
+  .join-social-item:hover, .join-social-item:focus {
+    background-color: var(--accent-color);
+  }
 
   .join-social-icon {
     width: 20px;
