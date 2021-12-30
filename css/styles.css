@@ -453,12 +453,12 @@ address ul {
 /* join footer section */
   .footer-container {
     display: flex;
+    align-items: baseline;
   }
   .join-section {
     margin-left: 70px;
     width: 206px;
-    padding-top: 12px;
-  }
+    }
 
   .join {
   font-family: Roboto;
@@ -574,17 +574,3 @@ address ul {
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
-
-/* svg */
-
-
-
- 
-
-  
-
-
-
-  
-
-  
